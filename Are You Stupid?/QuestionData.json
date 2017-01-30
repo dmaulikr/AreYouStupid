@@ -1,0 +1,510 @@
+[
+	{
+		"question":"What is the chemical symbol for water?",
+		"answers":["Fe", "CO2", "H2O"],
+		"correctIndex":2,
+		"module":1,
+		"lesson":0,
+		"feedback":"The chemical symbol for water is H20."
+	},
+ 
+	{
+		"question":"Which Roman city was buried by a volcanic eruption in 79 E.C.?",
+		"answers":["Rome", "Pompeii", "Florence"],
+		"correctIndex":1,
+		"module":2,
+		"lesson":0,
+		"feedback":"The city of Pompeii was buried in the volcanic eruption of Mount Vesuvius."
+	},
+ 
+	{
+		"question":"13 - 5 = ?",
+		"answers":["7", "9", "8"],
+		"correctIndex":2,
+		"module":3,
+		"lesson":0,
+		"feedback":"13 - 5 = 8"
+	},
+ 
+	{
+		"question":"What is the biggest planet in our solar system?",
+		"answers":["Saturn", "Jupiter", "Uranus"],
+		"correctIndex":1,
+		"module":4,
+		"lesson":0,
+		"feedback":"Jupiter is the largest planet in our Solar System."
+	},
+
+	{
+		"question":"The Magna Carta was published by the king of which country?",
+		"answers":["France", "Spain", "England"],
+		"correctIndex":2,
+		"module":5,
+		"lesson":0,
+		"feedback":"King John of England published the Magna Carta. Many future governments used it as a cornerstone, most notably the US constitution."
+	},
+	{
+		"question":"There are several books on a shelf. If one book is fourth from the left and sixth from the right how many books are there on the shelf?",
+		"answers":["9","11", "10"],
+		"correctIndex":0,
+		"module":6,
+		"lesson":0,
+		"feedback":"There are 3 on its left and 5 on its right plus itself which makes a total of 9 books."
+	},
+	{
+		"question":"What does a light-year measure?",
+		"answers":["mass", "time", "distance"],
+		"correctIndex":2,
+		"module":7,
+		"lesson":0,
+		"feedback":"A light-year is the distance that light travels in a year."
+	},
+	{
+		"question":"What disease killed 1/3 of Europe's population in the 14th century?",
+		"answers":["Spanish Flu", "Black Plague", "Bubonic Plague"],
+		"correctIndex":2,
+		"module":8,
+		"lesson":0,
+		"feedback":"The bubonic plague otherwise known as the Black Death wiped out 1/3 of Europe's population."
+	},
+	{
+		"question":"11 x 14 = ?",
+		"answers":["154", "143" , "144"],
+		"correctIndex":0,
+		"module":9,
+		"lesson":0,
+		"feedback":"11 x 14 = 154"
+	},
+	{
+		"question":"Which element is necessary for nuclear weapons?",
+		"answers":["Carbon", "Oxygen", "Plutonium"],
+		"correctIndex":2,
+		"module":10,
+		"lesson":0,
+		"feedback":"The radioactive element Plutonium is necessary for nukes."
+	},
+	{
+		"question":"Which conqueror held the largest empire in human history excluding the British Empire?",
+		"answers":["Julius Caesar","Ghengis Khan","Alexander the Great"],
+		"correctIndex":1,
+		"module":11,
+		"lesson":0,
+		"feedback":"Ghengis Khan built the Mongolian empire, which spanned almost all of Asia and parts of Europe."
+	},
+    {
+        "question":"Mr. Smith has 4 daughters, each with 2 brothers. How many children does Mr.Smith have?",
+        "answers":["8","6","16"],
+        "correctIndex":1,
+        "module":12,
+        "lesson":0,
+        "feedback":"Each daughter has the same 2 brothers so Mr.Smith has 6 children in total."
+	},
+    {
+        "question":"Which element is necessary for combustion?",
+        "answers":["Hydrogen","Carbon","Oxygen"],
+        "correctIndex":2,
+        "module":13,
+        "lesson":0,
+        "feedback":"Oxygen is necessary for any chemical combustion to occur."
+	},
+    {
+        "question":"Where were the first civilizations located?",
+        "answers":["Mesopotamia","Europe","Africa"],
+        "correctIndex":0,
+        "module":14,
+        "lesson":0,
+        "feedback":"Sumer the first known civilization was located in Mesopotamia."
+	},
+    {
+        "question":"2 to the power of 10 = ?",
+        "answers":["1024","2048","512"],
+        "correctIndex":0,
+        "module":15,
+        "lesson":0,
+        "feedback":"2 to the power of 10 is 1024."
+	},
+    {
+        "question":"A glass is filled to the brink with ice. It will overflow when it melts.",
+        "answers":["True","False"],
+        "correctIndex":1,
+        "module":16,
+        "lesson":0,
+        "feedback":"Water expands when it freezes due to hydrogen bonds within. Ice is actually less dense then ice. This is why a water bottle will sometimes crack when the water inside freezes."
+	},
+    {
+        "question":"Adolf Hitler was born in which country?",
+        "answers":["Germany","Russia","Austria"],
+        "correctIndex":2,
+        "module":17,
+        "lesson":0,
+        "feedback":"Suprisingly, he was actually born in Austria. He tried to become a painter in Vienna but he was rejected twice. He later joined the German military in WWI and moved through the ranks to become the chancellor of Germany."
+	},
+    {
+        "question":"3x + 8 = 20, What is x?",
+        "answers":["4","6","9"],
+        "correctIndex":0,
+        "module":18,
+        "lesson":0,
+        "feedback":"Subtract 8 from 20 and divide by 3 to get x. x = 3"
+	},
+    {
+        "question":"What kind of waves are used to transmit phone calls?",
+        "answers":["Visible Light waves","Infrared","Radio Waves"],
+        "correctIndex":2,
+        "module":19,
+        "lesson":0,
+        "feedback":"Radio Waves transit these messages after pasing through satellites."
+	},
+    {
+        "question":"In which country were the first modern Olympic Games held?",
+        "answers":["Spain","Soviet Union","Greece"],
+        "correctIndex":2,
+        "module":20,
+        "lesson":0,
+        "feedback":"In 1896, the first Olympic Games were held in Athens, Greece."
+	},
+    {
+        "question":"What is the next number in this sequence? 1 11 21 1211 111221 312211 ...",
+        "answers":["41121","13112211","13112221"],
+        "correctIndex":2,
+        "module":21,
+        "lesson":0,
+        "feedback":"Each number describes the previous number. The second term 11 shows that there is a single 1. Then next term shows that there were two 1's. The next term shows that there was one 2 and one 1. This pattern yields the next term as 13112221."
+	},
+    {
+        "question":"The loudness of a sound is determined by which quality of the sound wave?",
+        "answers":["Frequency","Velocity","Amplitude"],
+        "correctIndex":2,
+        "module":22,
+        "lesson":0,
+        "feedback":"The frequency determines the pitch. The velocity doesn't affect the loudness. It is the amplitude which determines how loud the sound is."
+	},
+    {
+        "question":"Who was president of the US when the atomic bombs were dropped?",
+        "answers":["Dwight Eisenhower"," Harry Truman","Franklin Rooselvelt"],
+        "correctIndex":1,
+        "module":23,
+        "lesson":0,
+        "feedback":"The bomb was dropped during Truman's presidency. He once said, 'The atom bomb was no great decision. It was nearly another weapon in the arsenal of righteousneous'."
+	},
+        {
+        "question":"If (2x - 4)^2 + 6x = 3x^2",
+        "answers":["-8, -2","8, 2","4,4"],
+        "correctIndex":1,
+        "module":24,
+        "lesson":0,
+        "feedback":"There are two possible values to x, which are 8 and 2."
+	},
+    {
+        "question":"Why is the sky blue?",
+        "answers":["We live in the eye of a blue-eyed giant."," It reflects the the color of the ocean.","Particles in the air scatter blue light more efficiently than any other light in the visible light spectrum."],
+        "correctIndex":2,
+        "module":25,
+        "lesson":0,
+        "feedback":"Our atmosphere contains air particles that scatter blue light more efficiently than other colors."
+	},
+    {
+        "question":"What is the oldest story ever recorded?",
+        "answers":["The Old Testament","The Epic of Gilgamesh","The Holy Vedas"],
+        "correctIndex":1,
+        "module":26,
+        "lesson":0,
+        "feedback":"The epic of Gilgamesh is the oldest story ever recorded dating around 2000 B.C. It chronicles a man a strong, brilliant young man who became king and made a best friend, Enkidu. They caused much trouble and the gods decided to punish them by killing Enkidu. Gilgamesh suffered from grief and traveled to the ends of the world to prevent his own death. He ultimately recognized his quest's futility and realized that his beautiful, powerful kingdom would live on and serve as his legacy. In this manner he would be immortalized. "
+	},
+    {
+        "question":"What is the sine of the angle formed between the minute and hour hand at 3 o'clock?",
+        "answers":["1","0","-1"],
+        "correctIndex":0,
+        "module":27,
+        "lesson":0,
+        "feedback":"The hour and minute hand form a 90 degree angle. The sine value of 90 degrees is 1."
+	},
+    {
+        "question":"What is the largest bone in the human body?",
+        "answers":["Fibula","Tibia","Femur"],
+        "correctIndex":2,
+        "module":28,
+        "lesson":0,
+        "feedback":"The femur, the bone in your thigh, is the largest bone in the human skeleton."
+	},
+    {
+        "question":"In WWII the side that Germany fought for was ...?",
+        "answers":["Central Powers","Allied Powers","Axis Powers"],
+        "correctIndex":2,
+        "module":29,
+        "lesson":0,
+        "feedback":"Germany fought the Allied powers in both wars. In WWI Germany was in the Central powers. In WWII Germany was in the Axis Powers."
+	},
+    {
+        "question":"It takes 1.5 hours for Jim to mow the lawn. Linda can mow the same lawn in 2 hours. How long will it take Jim and Linda, work together, to mow the lawn?",
+        "answers":["6/7 hour","2/3 hour","1/2 hour"],
+        "correctIndex":0,
+        "module":30,
+        "lesson":0,
+        "feedback":"Rate = Lawns Mowed/Time. So Lawns Mowed = Rate * Time. Jim's work is t*(1/1.5) and Linda's work is t*(1/2). Added together there work is t*(7/6). Set this equal to 1 since that is how much work they will be doing. 7t/6 = 1 so t = 6/7 hours."
+	},
+    {
+        "question":"How long does it take the Sun's light to reach the Earth?",
+        "answers":["8 minutes","8 days","8 hours"],
+        "correctIndex":0,
+        "module":31,
+        "lesson":0,
+        "feedback":"The Sun's light takes approximately 8 minutes to reach the Earth."
+	},
+    {
+        "question":"Who invented the radio?",
+        "answers":["Nikola Tesla","Guglielmo Marconi","Michael Faraday"],
+        "correctIndex":1,
+        "module":32,
+        "lesson":0,
+        "feedback":"Marconi invented the first radio. However much of Marconi's design was derived from Tesla's patents which is why the radio's invention is plagued with controversy."
+	},
+    {
+        "question":"lim x->2  (x^2-4) / (x+2)",
+        "answers":["0","D.N.E.","4"],
+        "correctIndex":0,
+        "module":33,
+        "lesson":0,
+        "feedback":"(x^2 - 4) is the same as (x+2)*(x-2). Cancel out the (x+2) on the numerator and denominator. Then plug 2 in (x-2). 2 - 2 = 0."
+	},
+    {
+        "question":"What is the closest star to the Earth?",
+        "answers":["Alpha Centauri","Barnard's Star","the Sun"],
+        "correctIndex":2,
+        "module":34,
+        "lesson":0,
+        "feedback":"The Sun is the closest to the Earth. Alpha centauri is the second closest at about 4.4 light year's away."
+	},
+    {
+        "question":"Which country launched the first satelite into space?",
+        "answers":["USA","China","Soviet Union"],
+        "correctIndex":2,
+        "module":3,
+        "lesson":0,
+        "feedback":"The Sputnik was launched in 1957 by the Soviet Union which led to the eventual Space Race. A contest of sorts between two international powerhouses to develop space technology."
+	},
+    {
+        "question":"What is the radius of a circle with the equation x^2 + y^2 = 16?",
+        "answers":["16","4","256"],
+        "correctIndex":1,
+        "module":35,
+        "lesson":0,
+        "feedback":"The radius is equal to the square root of 16 which is 4."
+	},
+    {
+        "question":"Nothing can move faster than the speed of ... ?",
+        "answers":["Sound","Light","Black Hole"],
+        "correctIndex":1,
+        "module":36,
+        "lesson":0,
+        "feedback":"The speed of light c = (300,000,000 m/s) is a universal speed limit as said by Einstein."
+	},
+    {
+        "question":"Who first came up with the idea of a programmable computer?",
+        "answers":["IBM","Charles Babbage","Alan Turing"],
+        "correctIndex":1,
+        "module":37,
+        "lesson":0,
+        "feedback":"Considered a father of the computer, Babbage is credited with inventing the first mechanical computer that eventually led to more complex designs. He received massive funding from the government to complete his project but was cut off before being able to finish. He tinkered with it until his death in 1871."
+	},
+    {
+        "question":"What is the derivative of (x^2)/3 with respect to x?",
+        "answers":["3x/2","2x/3","(x^3)/4"],
+        "correctIndex":1,
+        "module":38,
+        "lesson":0,
+        "feedback":"Multiply the expression by the exponent, which is 2 and then subtract 1 from the exponent. This is known as the power rule for derivatives."
+	},
+    {
+        "question":"How many years old is the Earth?",
+        "answers":["890 million","6000","4.6 billion"],
+        "correctIndex":2,
+        "module":39,
+        "lesson":0,
+        "feedback":"Around 4.6 billion years a disc-shaped cloud full of gas and dust had many collisions within it. These collisions formed clumps that grew larger and larger forming the planets in our solar system."
+	},
+    {
+        "question":"Who was President during the assassination of Bin Laden?",
+        "answers":["George W. Bush","Barack Obama","Frank Underwood"],
+        "correctIndex":1,
+        "module":40,
+        "lesson":0,
+        "feedback":"Barack Obama ordered to have Seal Team 6 invade a small home in Pakistan and kill Bin Laden. It was named Operation Neptune Spear. "
+	},
+    {
+        "question":"There are 2133 men sitting in a round table. A sword is given to the person in the first seat. He must stab the next living person(man #2) to death and then hand the sword to the next living person(man #3). If this pattern continues what will be the number of the seat of the last living man?",
+        "answers":["170","85","171"],
+        "correctIndex":2,
+        "module":41,
+        "lesson":0,
+        "feedback":"Whenever there is a number of people at the table equivalent to a power of 2 (2, 4, 8 ,16 ...) the person who has the sword first will be the last living person. The closest power of 2 is 2048. 2133 - 2048 = 85. So 85 people must die first. Since every other person dies we multiply by 2. 85 * 2 = 170. So the person sitting in seat 170 will be the 85 person to die and 171 will get the sword. Man #171 will be the first out of 2048 to get the sword so he will live."
+	},
+    {
+        "question":"Which fundamental force is responsible for holding together an atom?",
+        "answers":["Gravitational","Strong Force","Electromagnetic Force"],
+        "correctIndex":1,
+        "module":42,
+        "lesson":0,
+        "feedback":"There are 4 fundamental forces: Gravity, Electromagnetism, Strong Force, Weak Force. The gravitational force with masses that small are negligible. The electromagnetic force pushes them apart, since protons in the nucleus have the same charge. Physicists have called it the strong force. An extremely powerful force which overcomes the electromagnetic repulsion etween protons in the nucleus."
+	},
+    {
+        "question":"Who succeeded Julius Caesar?",
+        "answers":["Brutus","Augustus","Marc Antony"],
+        "correctIndex":1,
+        "module":43,
+        "lesson":0,
+        "feedback":"Augustus Caesar was Julius Caesar's heir and he inherited his position and power. He later expanded his power by increasing leglislation that would give him authority. Not only did the Roman empire flourish during his rule but it expanded since he annexed Egypt. After Augustus the Roman empire deteriorated."
+	},
+    {
+        "question":"What is the indefinite integral of [(3x^2)]dx ?",
+        "answers":["6x","x^3","9x^3"],
+        "correctIndex":1,
+        "module":44,
+        "lesson":0,
+        "feedback":"Add 1 to the exponent and divide the whole expression by the new exponent value. So the answer is x^3 . This is also known as the power rule."
+	},
+    {
+        "question":"What is the most abundant element in the world?",
+        "answers":["Nitrogen","Iron","Oxygen"],
+        "correctIndex":2,
+        "module":45,
+        "lesson":0,
+        "feedback":"Although Nitrogen makes up a majority of the atmosphere Oxygen makes up 47% of the Earth's crust making it by far the most abundant element."
+	},
+    {
+        "question":"What is the largest animal ever?",
+        "answers":["Tyrannosaurus Rex","Argentinosaurus","Blue Whale"],
+        "correctIndex":2,
+        "module":46,
+        "lesson":0,
+        "feedback":"The blue whale is the largest known animal to have ever inhabited the Earth."
+	},
+    {
+        "question":"In which city was the Islamic prophet Muhammad born?",
+        "answers":["Jerusalem","Mecca","Nazareth"],
+        "correctIndex":1,
+        "module":47,
+        "lesson":0,
+        "feedback":"Muhammad was born in the Holy city of Mecca."
+	},
+    {
+        "question":"A girl jumps half a meter on her first jump. She then jumps, 1/4 of meter, half that length of the previous jump. Then she jumps an 1/8 of a meter. If she continues this pattern how many jumps will it take to jump 1 whole meter from her original starting point?",
+        "answers":["16","256","She will never get there."],
+        "correctIndex":2,
+        "module":48,
+        "lesson":0,
+        "feedback":"Since the length keeps getting smaller she will actually never get 1 meter ahead from her original starting position."
+	},
+    {
+        "question":"What is Nitrous Oxide used for?",
+        "answers":["Hot Air Ballons","Laughing Gas","Rocket Fuel"],
+        "correctIndex":1,
+        "module":49,
+        "lesson":0,
+        "feedback":"Nitrous Oxide most commonly known as laughing gas is generally used as an anesthetic by doctors."
+	},
+    {
+        "question":"Who painted the Sistine Chapel?",
+        "answers":["Leonardo Da Vinci","Michaelangelo","Raphael"],
+        "correctIndex":1,
+        "module":50,
+        "lesson":0,
+        "feedback":"Michaelangelo was the renowned Renessaince artist who painted the Sistine Chapel which was built in the vatican between 1508 and 1512."
+	},
+    {
+        "question":"An earthquake with a magnitude of 6 on the Richter Scale is how many times stronger than an earthquake with a magnitude of 2?",
+        "answers":["4","1000","10000"],
+        "correctIndex":2,
+        "module":51,
+        "lesson":0,
+        "feedback":"Each increment of 1 represents an earthquake 10 times stronger, according to the Richter Scale. So 6 - 2 = 4. and 10^4 = 10000. "
+	},
+    {
+        "question":"Who wrote the melody for twinkle, twinkle, little star?",
+        "answers":["Beethoven","Mozart","Hans Zimmer"],
+        "correctIndex":1,
+        "module":52,
+        "lesson":0,
+        "feedback":"Wolfgang Amadeus Mozart composed the melody which is now recognized as twinkle, twinkle little star and Happy Birthday. "
+	},
+    {
+        "question":"You have a square peice of paper that is 1 meter squared. How many 10 cm^2 squares can you cut out of it?",
+        "answers":["1000","100","10000"],
+        "correctIndex":0,
+        "module":53,
+        "lesson":0,
+        "feedback":"1 meter squared is equal to 10000 centimeters squared. Divide by 10 and you get 1000."
+	},
+    {
+        "question":"Who was Plato's mentor?",
+        "answers":["Aristotle","Socrates","Alexander the Great"],
+        "correctIndex":1,
+        "module":54,
+        "lesson":0,
+        "feedback":"Socrates was Plato's mentor. He died in a Jesus-like fashion cementing his place in history. He most well-known for saying that the only thing he knew was that he knew nothing. Plato was his student and Aristotle was Plato's student. Alexander was Aristotle's student."
+	},
+    {
+        "question":"You have a pie. Your dad eats 1/2. Your mom eats a 1/3 of whats remains. Your sister eats half of what remains after your mom eats. How much of the original pie is left?",
+        "answers":["1/3","1/6","1/12"],
+        "correctIndex":1,
+        "module":55,
+        "lesson":0,
+        "feedback":"1/6 of the pie is left for you. Drawing a picture helps."
+	},
+    {
+        "question":"Which man led an anti-apartheid revolution in Africa?",
+        "answers":["Martin Luther King","Ghandi","Nelson Mandela"],
+        "correctIndex":2,
+        "module":56,
+        "lesson":0,
+        "feedback":"Nelson Rolihlahla Mandela was a South African anti-apartheid revolutionary, politician, and philanthropist who served as President of South Africa from 1994 to 1999."
+	},
+    {
+        "question":"Arab countries are well-known for despising which of the following countries?",
+        "answers":["Jerusalem","Israel","Iraq"],
+        "correctIndex":1,
+        "module":57,
+        "lesson":0,
+        "feedback":"In 1948, Jewish people were given back their ancestral homeland which at the time was a British colony. It became Israel. The Islamic people who settled the area over the last 1000 years did not want to share the land, so they attacked Israel which defeated them and has every time there after it was attacked. Both claim the holy mount in Jerusalem."
+	},
+    {
+        "question":"How much of the federal budget did the US use on military spending in 2015?",
+        "answers":["17%","31%","53%"],
+        "correctIndex":2,
+        "module":58,
+        "lesson":0,
+        "feedback":"The US military spent 53% of it's 1.1 trillion dollar budget on military spending. It spent only 6% on education and 3% on energy and environmental expenditures."
+	},
+    {
+        "question":"There are more foreclosed homes in America than homeless people.",
+        "answers":["True","False"],
+        "correctIndex":59,
+        "module":3,
+        "lesson":0,
+        "feedback":"Empty homes outnumber homeless people 6 to 1."
+	},
+    {
+        "question":"How many people die every day from starvation?",
+        "answers":["2000","14000","21000"],
+        "correctIndex":60,
+        "module":3,
+        "lesson":0,
+        "feedback":"On average, 21000 people die every day from starvation, the majority usually are children. While some nations deal with mass malnutrition others deal with mass obesity."
+	},
+    {
+        "question":"Why does the US spend so much on military intervention in the middle east?",
+        "answers":["The US genuinely cares about stopping terrorist organizations from hurting people home and afar."," Oil companies fund Republican politicians and lawmakers so we end up with legislation to protect their interests, which involves staying in the oil-abundant middle-east.","Preventing arab nations from obtaining a nuke to decimate our ally, Israel."],
+        "correctIndex":1,
+        "module":61,
+        "lesson":0,
+        "feedback":"As previously mentioned people are suffering and dying all over the world in impoverished areas yet the middle east remains of utmost interest. Republicans believe that since our economy is oil-dependent it is only logical to further the dependency to have a short-term benefit for economy. Unfortunately, the oil reserves will deplete destroying the economy if the world doesn't suffer from an environmental distaster due to the massive burning of fossil fuels."
+	},
+    {
+        "question":"What was the voter turnout for the US 2014 midterms?",
+        "answers":["72%","48%","36%"],
+        "correctIndex":2,
+        "module":62,
+        "lesson":0,
+        "feedback":"Only 36.4% of the eligible voting population had a say in who would be the country's lawmaker's for the next 2-6 years. "
+	}
+]

@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC22EF41BDC0CB200AB0C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22EF31BDC0CB200AB0C9D /* AppDelegate.swift */; };
+		4CC22EF61BDC0CB200AB0C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22EF51BDC0CB200AB0C9D /* ViewController.swift */; };
+		4CC22F0A1BDC0CB200AB0C9D /* Are_You_Stupid_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F091BDC0CB200AB0C9D /* Are_You_Stupid_Tests.swift */; };
+		4CC22F141BDC0D8A00AB0C9D /* AnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F131BDC0D8A00AB0C9D /* AnswerButtonView.swift */; };
+		4CC22F161BDC0DF800AB0C9D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F151BDC0DF800AB0C9D /* Question.swift */; };
+		4CC22F181BDC0E3800AB0C9D /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F171BDC0E3800AB0C9D /* QuizModel.swift */; };
+		4CC22F1A1BDC0E6300AB0C9D /* QuestionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F191BDC0E6300AB0C9D /* QuestionData.json */; };
+		4CC22F1C1BDC0E7100AB0C9D /* Lessons.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F1B1BDC0E7100AB0C9D /* Lessons.mp3 */; };
+		4CC22F1E1BDC0FB200AB0C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F1D1BDC0FB200AB0C9D /* Main.storyboard */; };
+		4CC22F201BDC103F00AB0C9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F1F1BDC103F00AB0C9D /* LaunchScreen.xib */; };
+		4CC22F221BDC106C00AB0C9D /* Images 14-54-07-172.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F211BDC106C00AB0C9D /* Images 14-54-07-172.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC22F041BDC0CB200AB0C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC22EE61BDC0CB100AB0C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC22EED1BDC0CB100AB0C9D;
+			remoteInfo = "Are You Stupid?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC22EEE1BDC0CB100AB0C9D /* Are You Stupid?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Are You Stupid?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC22EF21BDC0CB200AB0C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC22EF31BDC0CB200AB0C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC22EF51BDC0CB200AB0C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC22F031BDC0CB200AB0C9D /* Are You Stupid?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Are You Stupid?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC22F081BDC0CB200AB0C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC22F091BDC0CB200AB0C9D /* Are_You_Stupid_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Are_You_Stupid_Tests.swift; sourceTree = "<group>"; };
+		4CC22F131BDC0D8A00AB0C9D /* AnswerButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerButtonView.swift; sourceTree = "<group>"; };
+		4CC22F151BDC0DF800AB0C9D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4CC22F171BDC0E3800AB0C9D /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		4CC22F191BDC0E6300AB0C9D /* QuestionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionData.json; sourceTree = "<group>"; };
+		4CC22F1B1BDC0E7100AB0C9D /* Lessons.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lessons.mp3; sourceTree = "<group>"; };
+		4CC22F1D1BDC0FB200AB0C9D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4CC22F1F1BDC103F00AB0C9D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		4CC22F211BDC106C00AB0C9D /* Images 14-54-07-172.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images 14-54-07-172.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC22EEB1BDC0CB100AB0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22F001BDC0CB200AB0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC22EE51BDC0CB100AB0C9D = {
+			isa = PBXGroup;
+			children = (
+				4CC22EF01BDC0CB100AB0C9D /* Are You Stupid? */,
+				4CC22F061BDC0CB200AB0C9D /* Are You Stupid?Tests */,
+				4CC22EEF1BDC0CB100AB0C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC22EEF1BDC0CB100AB0C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22EEE1BDC0CB100AB0C9D /* Are You Stupid?.app */,
+				4CC22F031BDC0CB200AB0C9D /* Are You Stupid?Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC22EF01BDC0CB100AB0C9D /* Are You Stupid? */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22EF31BDC0CB200AB0C9D /* AppDelegate.swift */,
+				4CC22EF51BDC0CB200AB0C9D /* ViewController.swift */,
+				4CC22F131BDC0D8A00AB0C9D /* AnswerButtonView.swift */,
+				4CC22F1D1BDC0FB200AB0C9D /* Main.storyboard */,
+				4CC22F1F1BDC103F00AB0C9D /* LaunchScreen.xib */,
+				4CC22F211BDC106C00AB0C9D /* Images 14-54-07-172.xcassets */,
+				4CC22EF11BDC0CB200AB0C9D /* Supporting Files */,
+			);
+			path = "Are You Stupid?";
+			sourceTree = "<group>";
+		};
+		4CC22EF11BDC0CB200AB0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F171BDC0E3800AB0C9D /* QuizModel.swift */,
+				4CC22F151BDC0DF800AB0C9D /* Question.swift */,
+				4CC22F1B1BDC0E7100AB0C9D /* Lessons.mp3 */,
+				4CC22F191BDC0E6300AB0C9D /* QuestionData.json */,
+				4CC22EF21BDC0CB200AB0C9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC22F061BDC0CB200AB0C9D /* Are You Stupid?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F091BDC0CB200AB0C9D /* Are_You_Stupid_Tests.swift */,
+				4CC22F071BDC0CB200AB0C9D /* Supporting Files */,
+			);
+			path = "Are You Stupid?Tests";
+			sourceTree = "<group>";
+		};
+		4CC22F071BDC0CB200AB0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F081BDC0CB200AB0C9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC22EED1BDC0CB100AB0C9D /* Are You Stupid? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC22F0D1BDC0CB200AB0C9D /* Build configuration list for PBXNativeTarget "Are You Stupid?" */;
+			buildPhases = (
+				4CC22EEA1BDC0CB100AB0C9D /* Sources */,
+				4CC22EEB1BDC0CB100AB0C9D /* Frameworks */,
+				4CC22EEC1BDC0CB100AB0C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Are You Stupid?";
+			productName = "Are You Stupid?";
+			productReference = 4CC22EEE1BDC0CB100AB0C9D /* Are You Stupid?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC22F021BDC0CB200AB0C9D /* Are You Stupid?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC22F101BDC0CB200AB0C9D /* Build configuration list for PBXNativeTarget "Are You Stupid?Tests" */;
+			buildPhases = (
+				4CC22EFF1BDC0CB200AB0C9D /* Sources */,
+				4CC22F001BDC0CB200AB0C9D /* Frameworks */,
+				4CC22F011BDC0CB200AB0C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC22F051BDC0CB200AB0C9D /* PBXTargetDependency */,
+			);
+			name = "Are You Stupid?Tests";
+			productName = "Are You Stupid?Tests";
+			productReference = 4CC22F031BDC0CB200AB0C9D /* Are You Stupid?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC22EE61BDC0CB100AB0C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TadCorp;
+				TargetAttributes = {
+					4CC22EED1BDC0CB100AB0C9D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4CC22F021BDC0CB200AB0C9D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4CC22EED1BDC0CB100AB0C9D;
+					};
+				};
+			};
+			buildConfigurationList = 4CC22EE91BDC0CB100AB0C9D /* Build configuration list for PBXProject "Are You Stupid?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC22EE51BDC0CB100AB0C9D;
+			productRefGroup = 4CC22EEF1BDC0CB100AB0C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC22EED1BDC0CB100AB0C9D /* Are You Stupid? */,
+				4CC22F021BDC0CB200AB0C9D /* Are You Stupid?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC22EEC1BDC0CB100AB0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F1E1BDC0FB200AB0C9D /* Main.storyboard in Resources */,
+				4CC22F1C1BDC0E7100AB0C9D /* Lessons.mp3 in Resources */,
+				4CC22F221BDC106C00AB0C9D /* Images 14-54-07-172.xcassets in Resources */,
+				4CC22F201BDC103F00AB0C9D /* LaunchScreen.xib in Resources */,
+				4CC22F1A1BDC0E6300AB0C9D /* QuestionData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22F011BDC0CB200AB0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC22EEA1BDC0CB100AB0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F141BDC0D8A00AB0C9D /* AnswerButtonView.swift in Sources */,
+				4CC22F161BDC0DF800AB0C9D /* Question.swift in Sources */,
+				4CC22EF61BDC0CB200AB0C9D /* ViewController.swift in Sources */,
+				4CC22EF41BDC0CB200AB0C9D /* AppDelegate.swift in Sources */,
+				4CC22F181BDC0E3800AB0C9D /* QuizModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22EFF1BDC0CB200AB0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F0A1BDC0CB200AB0C9D /* Are_You_Stupid_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC22F051BDC0CB200AB0C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC22EED1BDC0CB100AB0C9D /* Are You Stupid? */;
+			targetProxy = 4CC22F041BDC0CB200AB0C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CC22F0B1BDC0CB200AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CC22F0C1BDC0CB200AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC22F0E1BDC0CB200AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Are You Stupid?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CC22F0F1BDC0CB200AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Are You Stupid?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CC22F111BDC0CB200AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Are You Stupid?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Are You Stupid?.app/Are You Stupid?";
+			};
+			name = Debug;
+		};
+		4CC22F121BDC0CB200AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Are You Stupid?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Are You Stupid?.app/Are You Stupid?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC22EE91BDC0CB100AB0C9D /* Build configuration list for PBXProject "Are You Stupid?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F0B1BDC0CB200AB0C9D /* Debug */,
+				4CC22F0C1BDC0CB200AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC22F0D1BDC0CB200AB0C9D /* Build configuration list for PBXNativeTarget "Are You Stupid?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F0E1BDC0CB200AB0C9D /* Debug */,
+				4CC22F0F1BDC0CB200AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC22F101BDC0CB200AB0C9D /* Build configuration list for PBXNativeTarget "Are You Stupid?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F111BDC0CB200AB0C9D /* Debug */,
+				4CC22F121BDC0CB200AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC22EE61BDC0CB100AB0C9D /* Project object */;
+}
